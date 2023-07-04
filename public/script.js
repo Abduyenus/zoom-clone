@@ -131,7 +131,3 @@ const setUnmuteButton = () => {
   `;
   document.querySelector(".main__mute_button").innerHTML = html;
 };
-
-const leave = () => {
-  alert("Warning: This action cannot be undone!");
-}
